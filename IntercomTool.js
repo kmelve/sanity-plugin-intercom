@@ -23,8 +23,8 @@ class IntercomTool extends Component {
         <ul>
           Settings in config/intercom.js
           <li>appId: {appId}</li>
-          <li>appId: {name}</li>
-          <li>appId: {email}</li>
+          <li>name: {name}</li>
+          <li>email: {email}</li>
         </ul>
         <Intercom appID={appId} />
       </div>
