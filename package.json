@@ -1,0 +1,23 @@
+{
+  "name": "sanity-plugin-intercom",
+  "version": "1.0.0",
+  "description": "Add Intercom to your Sanity Content Studio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "babel -d lib/ src/"
+  },
+  "author": {
+    "name": "Knut Melvær",
+    "email": "knut.melvaer@gmail.com",
+    "url": "https://knutmelvaer.no"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react-intercom": "^1.0.14"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
